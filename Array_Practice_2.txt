@@ -1,0 +1,51 @@
+Array Practice 2
+------------------------------------------------------------------------
+
+100 number array
+
+	1. Create an int array called numbers that has length of 100
+	2. Assign 1-100 to each index of the array. Then print your number array
+
+------------------------------------------------------------------------
+
+Reverse Array
+
+	Write a program that will reverse the order of any given array
+		Ex: 
+		Input:
+			[1, 2, 3, 4, 5] 
+		Output:
+			[5, 4, 3, 2, 1]
+
+------------------------------------------------------------------------
+
+Move Zeros
+
+	Write a program that will move all the zero numbers to the end of the array. The rest of the numbers will move over in position
+
+Hint: You don’t have to manipulate the given array, try to use another array too. Think about the indexes
+
+	Ex: 
+	Input:
+		[10, 0, 5, 0, 1, 0] 
+	Output:
+		[10, 5, 1, 0, 0, 0]
+
+------------------------------------------------------------------------
+
+Shortest and Longest words from String array
+
+	• Write a program that can return the shortest string element from a String array
+	• Write a program that can return the longest string element from a String array
+
+Hint: a good default value is the first element 
+
+------------------------------------------------------------------------
+Website checker
+
+	Given some urls determine how many .com, .org, and .edu websites there are. Also keep track of an ‘other’ category for websites that have a different domain
+
+Sample websites for an array:
+bing.com, wikimedia.org, twitter.com, amazonaws.com, japanpost.jp, mysql.com, nasa.gov, linkedin.com, ucla.edu, github.io, spotify.com, mozilla.org, nba.com, comcast.net, tamu.edu, utexas.edu
+
+------------------------------------------------------------------------

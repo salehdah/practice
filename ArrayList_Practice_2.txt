@@ -1,0 +1,78 @@
+ArrayList Practice 2
+---------------------------------------------------------------------------
+Four or less
+
+Given an ArrayList of Strings, go through and find Strings that are 4 characters or less. Take those Strings and put them into a different ArrayList. Print that ArrayList of words 
+
+Ex:
+	Input: 
+		“apples”, “tree”, “loop, “cat”, “animal”, “shortcut”
+	Output:
+		 [ tree, loop, cat ]
+
+---------------------------------------------------------------------------
+
+Hide passwords
+
+Given an ArrayList of passwords (String). Hide each password in a star (*) format where each character is a star and print the ArrayList of hidden passwords
+Ex:
+Input:
+{"one", "hi", "hold}
+
+Output: 
+[ ***, **, **** ]
+
+---------------------------------------------------------------------------
+
+Separate Parts
+
+Write a program that can extract the special characters, digits and letters from a string and stores them into separate ArrayLists of Characters
+
+Ex: 
+str = "ABCD123$%#@&456EFG!"
+list1: {$, %, #, @, &, !}
+list2: {A, B, C, D, E, F, G}
+list3: {1, 2, 3, 4, 5, 6}
+
+---------------------------------------------------------------------------
+
+Switch Pairs
+
+Given an ArrayList of words switch position for each pair in the List. A pair is an element and the element next to it. 
+
+The given ArrayList will always have an even number of elements so each element will always have a single pair. 
+
+Ex:
+Input: {"Cat", "in", "the", "hat"}
+
+There is two pairs: 
+"Cat" and "in"
+ "the" and "hat"
+                    
+Output: {"in", "Cat", "hat", "the”}
+
+---------------------------------------------------------------------------
+
+String Sum
+
+Create a method that will accept an ArrayList of numbers in String format, add each digit of each element and store into a different ArrayList. Return the ArrayList of summed numbers
+Ex:
+Input: 
+“123”, “34”, “513”
+Output:
+[ 6, 7, 9 ]
+
+---------------------------------------------------------------------------
+
+Count Letters 
+
+Create a method that will accept an ArrayList of Strings and a letter (char) print how many times the letter is found in the ArrayList elements
+
+Ex:
+Input:
+	”java”, ”html”, “css”, “java”, “javascript”, “selenium”
+	letter: ‘a’
+Output:
+	6
+
+---------------------------------------------------------------------------
